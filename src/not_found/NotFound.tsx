@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import cat_astronaut from "../assets/cat_astronaut.jpg";
 
-function PageNotFound() {
+function NotFound() {
   return (
     <div className="relative z-0 text-[#333]">
       <h1 className="mt-4 max-w-[80dvw] justify-self-center text-center text-2xl md:text-3xl lg:text-4xl">
@@ -21,4 +21,4 @@ function PageNotFound() {
   );
 }
 
-export default PageNotFound;
+export default NotFound;
