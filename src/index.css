@@ -22,11 +22,11 @@ body,
   display: block;
   margin: 30px auto;
   background-image:
-    linear-gradient(#fff 50px, transparent 0),
-    linear-gradient(#fff 50px, transparent 0),
-    linear-gradient(#fff 50px, transparent 0),
-    linear-gradient(#fff 50px, transparent 0),
-    radial-gradient(circle 14px, #fff 100%, transparent 0);
+    linear-gradient(#000 50px, transparent 0),
+    linear-gradient(#000 50px, transparent 0),
+    linear-gradient(#000 50px, transparent 0),
+    linear-gradient(#000 50px, transparent 0),
+    radial-gradient(circle 14px, #000 100%, transparent 0);
   background-size:
     48px 15px,
     15px 35px,
@@ -50,15 +50,15 @@ body,
   position: absolute;
   width: 56px;
   height: 56px;
-  border: 6px solid #fff;
+  border: 6px solid #000;
   border-radius: 50%;
   left: -45px;
   top: -10px;
   background-repeat: no-repeat;
   background-image:
-    linear-gradient(#fff 64px, transparent 0),
-    linear-gradient(#fff 66px, transparent 0),
-    radial-gradient(circle 4px, #fff 100%, transparent 0);
+    linear-gradient(#000 64px, transparent 0),
+    linear-gradient(#000 66px, transparent 0),
+    radial-gradient(circle 4px, #000 100%, transparent 0);
   background-size:
     40px 1px,
     1px 40px,

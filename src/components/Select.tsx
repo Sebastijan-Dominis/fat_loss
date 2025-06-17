@@ -20,7 +20,9 @@ function Select({ id, value, setValue, labelText, options }: SelectProps) {
         className="h-8 w-40 rounded-md border border-2 border-[#32cd32]"
       >
         {options.map((o: string) => (
-          <option value={o}>{o}</option>
+          <option key={o} value={o}>
+            {o}
+          </option>
         ))}
       </select>
     </>
