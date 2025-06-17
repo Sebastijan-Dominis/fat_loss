@@ -7,6 +7,7 @@ import Navbar from "./nav/Navbar";
 const Fat_loss = lazy(() => import("./fat_loss/Fat_loss"));
 const Body_fat = lazy(() => import("./body_fat/Body_fat"));
 const About = lazy(() => import("./about/About"));
+const NotFound = lazy(() => import("./not_found/NotFound"));
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
               <Route index element={<Fat_loss />} />
               <Route path="bodyfat" element={<Body_fat />} />
               <Route path="about" element={<About />} />
+              <Route path="*" element={<NotFound />} />
             </Routes>
           </div>
         </Suspense>
