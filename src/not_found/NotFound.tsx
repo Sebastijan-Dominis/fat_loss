@@ -10,7 +10,7 @@ function NotFound() {
       <img
         src={cat_astronaut}
         alt=""
-        className="fixed left-[50%] top-56 h-auto w-[64dvw] -translate-x-[50%] rotate-45"
+        className="fixed left-1/2 top-1/2 h-auto w-[20dvw] -translate-x-1/2 -translate-y-1/2 rotate-45 xl:w-[15dvw]"
       />
       <Link to={"/"}>
         <button className="fixed bottom-20 left-[50%] h-12 w-24 -translate-x-[50%] rounded-full bg-[#32cd32] md:h-12 md:w-32 md:text-lg lg:h-16 lg:w-40 lg:text-xl">
