@@ -15,7 +15,7 @@ function App() {
       <BrowserRouter>
         <Navbar></Navbar>
         <Suspense fallback={<Spinner />}>
-          <div className="flex flex-col items-center overflow-y-scroll pt-20 text-[#333]">
+          <div className="flex flex-col items-center overflow-y-scroll pb-4 pt-20 text-[#333] md:pt-24 lg:pt-28 xl:pt-32">
             <Routes>
               <Route index element={<Fat_loss />} />
               <Route path="bodyfat" element={<Body_fat />} />

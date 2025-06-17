@@ -43,7 +43,7 @@ function Body_fat() {
 
   return (
     <>
-      <h1 className="text-lg font-bold">U.S. Navy method</h1>
+      <h1 className="text-lg font-bold md:mt-2 md:text-xl">U.S. Navy method</h1>
       <Select
         id="sex"
         labelText="Select your sex"

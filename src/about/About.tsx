@@ -1,8 +1,8 @@
 function About() {
   return (
     <>
-      <h1 className="text-center text-lg font-bold">About</h1>
-      <p className="max-w-[70dvw] py-4">
+      <h1 className="text-center text-lg font-bold xl:text-xl">About</h1>
+      <p className="max-w-[70dvw] pt-4 xl:pt-8 xl:text-lg">
         The fat loss journey often takes longer than we plan. This app exists to
         help with that. The fat loss calculator assumes it takes around 7700
         calories to burn through one kilogram of body fat. In reality, it may

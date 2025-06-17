@@ -33,7 +33,9 @@ function Fat_loss() {
 
   return (
     <>
-      <h1 className="text-lg font-bold">How long to reach your goal?</h1>
+      <h1 className="text-lg font-bold md:mt-2 md:text-xl">
+        How long to reach your goal?
+      </h1>
       <Select
         id="unit"
         value={unit}
