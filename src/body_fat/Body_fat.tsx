@@ -3,6 +3,7 @@ import { useState } from "react";
 import { IN2CM } from "../utils/conversion";
 import Input from "../components/Input";
 import Select from "../components/Select";
+import Results from "../components/Results";
 
 function Body_fat() {
   const [sex, setSex] = useState("male");
@@ -92,9 +93,7 @@ function Body_fat() {
         />
       )}
       {body_fat !== null && (
-        <p className="mt-8">
-          Your body fat percentage is {body_fat.toFixed(2)}%.
-        </p>
+        <Results>Your body fat percentage is {body_fat.toFixed(2)}%.</Results>
       )}
     </>
   );

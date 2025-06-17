@@ -1,7 +1,9 @@
 import { useState } from "react";
 
+import { LBS2KG } from "../utils/conversion";
 import Select from "../components/Select";
 import Input from "../components/Input";
+import Results from "../components/Results";
 
 function Fat_loss() {
   const [unit, setUnit] = useState("metric");
@@ -10,6 +12,24 @@ function Fat_loss() {
   const [body_fat_curr, set_body_fat_curr] = useState<number | null>(null);
   const [body_fat_goal, set_body_fat_goal] = useState<number | null>(null);
   const [caloric_deficit, set_caloric_deficit] = useState<number | null>(null);
+
+  const weightInKG = weight
+    ? unit === "metric"
+      ? weight
+      : weight * LBS2KG
+    : null;
+
+  const fatToLose =
+    weightInKG && body_fat_curr && body_fat_goal
+      ? weightInKG * ((body_fat_curr - body_fat_goal) / 100)
+      : null;
+
+  const caloriesToLose = fatToLose ? 7700 * fatToLose : null;
+
+  const daysToGoal =
+    caloriesToLose && caloric_deficit
+      ? Math.round(caloriesToLose / caloric_deficit)
+      : null;
 
   return (
     <>
@@ -53,6 +73,12 @@ function Fat_loss() {
         labelMT="mt-4"
         labelText="Your caloric deficit"
       />
+      {daysToGoal && (
+        <Results>
+          Assuming you only burn fat and keep the deficit consistent, you will
+          reach your goal in roughly {daysToGoal} days.
+        </Results>
+      )}
     </>
   );
 }
