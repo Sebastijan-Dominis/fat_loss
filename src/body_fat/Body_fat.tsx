@@ -64,7 +64,7 @@ function Body_fat() {
         value={height}
         setValue={setHeight}
         labelMT="mt-8"
-        labelText={`Your weight in ${unit === "metric" ? "cm" : "in"}`}
+        labelText={`Your height in ${unit === "metric" ? "cm" : "in"}`}
       />
       <Input
         id="neck"
