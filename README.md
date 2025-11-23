@@ -118,13 +118,3 @@ See the `LICENSE` file in this repository for license details.
 
 **Contact**
 - Author: repository owner (see repository metadata).
-
----
-
-If you'd like, I can also:
-
-- Add screenshots or a small GIF showing the app in action
-- Add example test cases for the calculators
-- Add CI config for lint/build checks
-
-Let me know which of those you'd like next.
