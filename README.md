@@ -15,6 +15,8 @@ The app is lightweight, built with Vite and Tailwind CSS, and uses React Router 
 - [Screenshots](#screenshots)
 - [Scripts](#scripts)
 - [License](#license)
+- [Contributing](#contributing)
+- [Author & Contact](#author--contact)
 
 ## Overview
 This simple SPA allows users to estimate their current body fat percentage, as well as how long their journey to the one they aim for may take.
@@ -96,10 +98,13 @@ Provide sex, unit system, and circumference measurements (height, neck, waist, a
 
 ## Screenshots
 
+### Fat loss calculation
 ![Fat loss calculation](screenshots/fat-loss-1.png)
 
+### Body fat percentage calculation
 ![Body fat percentage calculation](screenshots/fat-loss-2.png)
 
+### About
 ![About](screenshots/fat-loss-3.png)
 
 ## Scripts
@@ -113,8 +118,9 @@ Available npm scripts (from `package.json`):
 ## License
 See the `LICENSE` file in this repository for license details.
 
-**Contributions**
+## Contributing
 - Feel free to contribute if you wish. Open an issue or submit a pull request with a clear description of the change.
 
-**Contact**
-- Author: repository owner (see repository metadata).
+## Author & Contact
+- Author: Sebastijan Dominis
+- Contact: sebastijan.dominis99@gmail.com
